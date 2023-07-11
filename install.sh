@@ -11,6 +11,8 @@ if [ -f "flux" ]; then
     sleep 1
     echo -e "${GREEN}Updating proxy...${ENDCOLOR}"
 fi
+wget -q git@github.com:GithubDiamondProxy/GithubDiamondProxy.git
+sleep 1
 echo -e "${GREEN}Proxy Installed${ENDCOLOR}"
 echo -e "${GREEN}Execute proxy with this command: ./flux${ENDCOLOR}"
 chmod +x flux
